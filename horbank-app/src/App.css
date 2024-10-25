@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Alexandria';
+    font-style: normal;
+    font-display: swap;
+    src: url(assets/fonts/alexandria-4/Alexandria[wght].ttf);
+  }
+
+  @font-face {
+    font-family: 'Roboto-flex';
+    font-style: normal;
+    font-display: swap;
+    src: url(assets/fonts/Roboto_Flex/RobotoFlex-Regular.ttf);
+  }
+}
